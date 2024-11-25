@@ -1,0 +1,13 @@
+.Container {
+    width: 400px;
+    height: 580px;
+    background-color: aquamarine;
+    border-radius: 12px;
+    padding: 28px;
+    margin-top: 20px;
+}
+p{
+    font-size: large;
+    font-weight: 600;
+    margin-left: 5px;
+}

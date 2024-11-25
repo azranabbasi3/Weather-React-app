@@ -1,0 +1,26 @@
+.weather-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2px;
+}
+.Weather-img img {
+  width: 55%;
+  margin-top: 10%;
+  display: flex;
+  justify-self: center;
+}
+.weather-box {
+  margin-top: 2%;
+  margin-left: 12%;
+}
+.weather-box .temperature {
+  font-size: 40px;
+  font-weight: 600;
+}
+.weather-body .description {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
