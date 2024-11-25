@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 
-export default function Footer({Data}) {
+const Footer = ({Data})=> {
   return (
     <div className="weather-details">
       <div className="humidity">
@@ -30,3 +30,6 @@ export default function Footer({Data}) {
     </div>
   );
 }
+
+
+export default React.memo(Footer);
